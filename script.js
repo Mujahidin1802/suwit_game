@@ -8,9 +8,9 @@ function getPilihanComputer() {
 
 function getHasil(comp, player) {
   if (player == comp) return "SERI";
-  if (player == "batu") return comp == "kertas" ? "MENANG" : "KALAH";
-  if (player == "kertas") return comp == "batu" ? "KALAH" : "MENANG";
-  if (player == "gunting") return comp == "kertas" ? "KALAH" : "MENANG";
+  if (player == "batu") return comp == "kertas" ? "KALAH" : "MENANG";
+  if (player == "kertas") return comp == "batu" ? "MENANG" : "KALAH";
+  if (player == "gunting") return comp == "kertas" ? "MENANG" : "KALAH";
 }
 
 function putar() {
